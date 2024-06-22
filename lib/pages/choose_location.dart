@@ -42,7 +42,7 @@ class _ChooseLocationState extends State<ChooseLocation> {
     return Scaffold(
       backgroundColor: Colors.grey[200],
       appBar: AppBar(
-        backgroundColor: Colors.blue[900],
+        backgroundColor: Colors.blue[600],
         title: const Text("Choose a Location"),
         elevation: 0,
       ),
@@ -63,7 +63,7 @@ class _ChooseLocationState extends State<ChooseLocation> {
             ),
             )
           );
-    }
+        }
       ),
     );
   }
